@@ -1,0 +1,6 @@
+# ninja log v5
+554	615	1715475096055003094	Critical_Thinking	14f98531be6b68ea
+1	525	1717530260591760915	CMakeFiles/Portfolio_Milestone.dir/count.cpp.o	fe39652ad820ad84
+0	535	1717530260601424400	CMakeFiles/Portfolio_Milestone.dir/thread.cpp.o	cc1e50d278075a8c
+0	570	1717530260637141774	CMakeFiles/Portfolio_Milestone.dir/main.cpp.o	56493f6b3c07038a
+570	631	1717530260700633464	Portfolio_Milestone	91c68681e814ef93

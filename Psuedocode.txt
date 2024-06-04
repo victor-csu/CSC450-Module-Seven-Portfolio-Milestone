@@ -1,0 +1,30 @@
+PROGRAM Thread Counters
+-	Multithreaded concurrent program that counts up to twenty and down to zero.
+
+BEGIN
+    BEGIN
+        Define an "count_to_twenty" function that counts up to twenty using a loop.
+        The "count_to_twenty" takes a single parameter, a reference to a global count variable
+        Print the result of each increment
+    END
+
+    BEGIN
+        Define an "count_to_zero" function that counts down to zero using a loop.
+        The "count_to_zero" takes a single parameter, a reference to a global count variable
+        Print the result of each decrement
+    END
+
+    BEGIN
+        Define a "thread_runner" function that takes the following parameters:
+        - name: the thread's name
+        - thread_function: the function to execute within the thread
+        - count: a reference to a global count variable
+        - thread_lock:  a mutex lock to control access to the global count variable
+        The "thread_runner" function should execute the "thread_function" and control access to the shared count variable.
+    END
+
+    Define a "main" method.
+        The main method should execute the "count_to_twenty" function using the "thread_runner" in a separate thread.
+        The main method should execute the "count_to_zero" function using the "thread_runner" in a separate thread.
+        Both thread should run concurrently and the "counter" global variable state should be valid at the end.
+END
