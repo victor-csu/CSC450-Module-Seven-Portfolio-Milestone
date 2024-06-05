@@ -1,5 +1,5 @@
 /*
- * Multithreaded Count to twenty and back to zero Program
+ * Multithreaded Count to twenty and back to zero program.
  * thread.cpp
  *
  * Created by Victor Enogwe on 20/05/2024.
@@ -21,7 +21,12 @@ void thread_details(const string &name) {
     cout << name << ": " << get_id() << "\n";
 }
 
-void thread_runner(const string &name, void (&thread_function)(int&), int& thread_count, mutex &thread_lock) {
+void thread_runner(
+    const string &name,
+    void (&thread_function)(int&),
+    int& thread_count,
+    mutex &thread_lock
+) {
     thread_lock.lock();
 
     thread_details(name);

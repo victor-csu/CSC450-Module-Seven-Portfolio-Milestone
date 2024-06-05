@@ -1,5 +1,5 @@
 /*
- * Multithreaded Count to twenty and back to zero Program
+ * Multithreaded Count to twenty and back to zero program.
  * count.h
  *
  * Created by Victor Enogwe on 20/05/2024.
